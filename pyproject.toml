@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "ca-template"
+version = "0.1.0"
+description = ""
+authors = ["dimazcoder <dimazcoder@gmail.com>"]
+readme = ""
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.104.1"
+uvicorn = "^0.24.0.post1"
+pydantic-settings = "^2.0.3"
+sqlalchemy = "^2.0.23"
+aiomysql = "^0.2.0"
+greenlet = "^3.0.1"
+elasticsearch = "^8.11.0"
+aiohttp = "3.9.0b0"
+loguru = "^0.7.2"
+kafka = "^1.3.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
